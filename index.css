@@ -1,0 +1,59 @@
+/*Reset*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 40%;
+  background-color: azure;
+  font-family: -apple-system, BlinkMacSystemFont, system-ui, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 3rem auto;
+  border: 2px solid rgb(21, 16, 16);
+  box-shadow: 5px 10px 18px #888888;
+  padding-bottom: 1rem;
+}
+h1{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+h2{
+  font-size: 50px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.btn{
+  background-color: rgba(11, 53, 11, 0.89);
+  width: 12.5rem;
+  height: 2.8rem;
+  color: aliceblue;
+  margin: 2rem 0;
+  font-size: 1.3rem;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+#decrement{
+  background-color: rgb(141, 13, 13);
+}
+#welcome{
+  font-size: 18px;
+}
+@media screen and (max-width: 600px){
+  body{
+    width: 90%;
+    margin: 2rem 0.5rem;
+    padding: 0.5rem;
+    height: 70vh;
+  }
+  .btn{
+    background-color: rgba(11, 53, 11, 0.89);
+    width: 12.5rem;
+    height: 2.8rem;
+    color: aliceblue;
+    margin: 2rem 0;
+  }
+}
